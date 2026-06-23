@@ -5,7 +5,7 @@ const router = express.Router();
 // Router = mini Express app, handles a GROUP of related routes
 // Keeps server.js clean — all habit routes live here
 
-const Habit = require('../models/Habit');
+const Habit = require('../models/habit');
 // Import Habit model — our gateway to MongoDB habits collection
 
 // ═══════════════════════════════════════════════════════════════
